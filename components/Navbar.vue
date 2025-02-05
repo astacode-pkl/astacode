@@ -2,7 +2,7 @@
     <div>
         <!-- ========== HEADER ========== -->
         <header
-            class="bg-white fixed top-0 border-b border-gray-200 flex flex-wrap md:justify-start md:flex-nowrap z-50 h-20 w-full">
+            class="bg-white fixed top-0 border-b border-gray-200 flex flex-wrap md:justify-start md:flex-nowrap z-50 h-20 w-full pt-2 lg:pt-0">
             <nav
                 class="relative max-w-[85rem] w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-2">
                 <!-- Logo w/ Navigasi Button -->
@@ -37,7 +37,7 @@
 
                 <!-- Navigasi -->
                 <div id="hs-header-classic"
-                    class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+                    class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block bg-white w-full pl-5"
                     aria-labelledby="hs-header-classic-collapse">
                     <div
                         class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
@@ -77,7 +77,7 @@
                 <!-- End Navigasi -->
                 <div class="button">
                     <a href="#"
-                        class="py-3 pl-5 w-40 inline-flex items-center text-sm  text-center font-medium rounded-xl border border-transparent bg-blue-700 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+                        class="py-3 pl-5 w-40 hidden md:inline-flex items-center text-sm text-center font-medium rounded-xl border border-transparent bg-blue-700 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
                         Free Consultation
                     </a>
                 </div>

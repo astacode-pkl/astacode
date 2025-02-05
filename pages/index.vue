@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Services />
-    <!-- <About /> -->
+    <About />
+    <Offering />
   </div>
 </template>

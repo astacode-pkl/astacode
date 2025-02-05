@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Features -->
-    <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-8">
       <!-- Grid -->
       <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
         <div class="flex justify-center">
@@ -20,7 +20,7 @@
               <h2 class="font-bold text-3xl lg:text-4xl text-blue-600">
                 About Astacode
               </h2>
-              <p class="text-gray-500 font-semibold">
+              <p class="text-gray-600 font-semibold">
                 We Are Increasing Business Success With Technology
               </p>
               <p class="text-gray-500">
@@ -52,7 +52,7 @@
                   </svg>
                 </span>
                 <div class="grow">
-                  <p class="text-sm sm:text-base font-semibold text-gray-500">
+                  <p class="text-sm sm:text-base font-semibold text-gray-600">
                     Problem Solving
                   </p>
                   <p class="text-sm sm:text-base text-gray-500">
@@ -80,7 +80,7 @@
                   </svg>
                 </span>
                 <div class="grow">
-                  <p class="text-sm sm:text-base font-semibold text-gray-500">
+                  <p class="text-sm sm:text-base font-semibold text-gray-600">
                     Mission & Vision
                   </p>
                   <p class="text-sm sm:text-base text-gray-500">
