@@ -1,6 +1,6 @@
 <template>
-    <div class="text-center mt-5 text-3xl " data-aos="fade-up">PORTFOLIO</div>
-    <div class="mx-auto h-1 w-20 md:w-28 bg-sky-500 rounded my-4" data-aos="fade-up"></div>
+    <div class="text-center mt-5 text-3xl " data-aos="fade-right">PORTFOLIO</div>
+    <div class="mx-auto h-1 w-20 md:w-28 bg-sky-500 rounded my-4" data-aos="fade-left"></div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-10/12 mt-5 p-5 items-center justify-center mx-auto">
         <nuxt-link to="/portfolio/detail">
