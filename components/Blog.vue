@@ -1,126 +1,155 @@
 <template>
-    <div class="text-center mt-5 text-3xl " data-aos="fade-right">OUR BLOG</div>
+    <div class="text-center mt-5 text-2xl sm:text-3xl" data-aos="fade-right">OUR BLOG</div>
     <div class="mx-auto h-1 w-20 md:w-28 bg-sky-500 rounded my-4" data-aos="fade-left"></div>
-    <!-- Card Blog -->
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+
+    <div class="max-w-[85rem] px-3 py-6 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Grid -->
-        <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-6">
             <!-- Card -->
-            <a data-aos="fade-up" data-aos-duration="1000"
-                class="group block rounded-xl overflow-hidden focus:outline-none shadow-md" href="/blog/detail">
-                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                        <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                            src="assets/img/blog1.jpg" alt="Blog Image">
+            <a data-aos="fade-up" data-aos-duration="1000" class="group block rounded-xl  overflow-hidden focus:outline-none shadow-md hover:shadow-lg 
+                       transition-all duration-300 bg-white 
+                       max-w-sm sm:max-w-none mx-auto" href="/blog/detail">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                    <!-- Image container with responsive sizing -->
+                    <div class="shrink-0 relative rounded-xl overflow-hidden 
+                                w-full sm:w-48 lg:w-56 
+                                h-40 sm:h-36 lg:h-44">
+                        <img class="w-full h-full object-cover rounded-xl 
+                                  transition-transform duration-500 ease-in-out 
+                                  group-hover:scale-105 group-focus:scale-105" src="assets/img/blog1.jpg"
+                            alt="Blog Image">
                     </div>
 
-                    <div class="grow">
-                        <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600">
+                    <!-- Content with responsive text -->
+                    <div class="grow p-3 sm:p-2 lg:p-4">
+                        <h3 class="text-lg sm:text-xl font-semibold text-gray-800 
+                                 group-hover:text-sky-600 line-clamp-2">
                             6 Best High Risk Merchant Account Providers for 2025
                         </h3>
 
-                        <p
-                            class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
+                        <p class="mt-2 sm:mt-4 inline-flex items-center gap-x-1.5 
+                                 text-sm font-medium text-sky-500 
+                                 group-hover:text-sky-600">
                             Read more
-                            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6" />
+                            <svg class="w-5 h-5 transform transition-transform group-hover:translate-x-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </p>
                     </div>
                 </div>
             </a>
-            <!-- End Card -->
 
-            <!-- Card -->
-            <a data-aos="fade-up" data-aos-duration="1000"
-                class="group block rounded-xl overflow-hidden focus:outline-none shadow-md" href="/blog/detail">
-                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                        <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                            src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
+            <a data-aos="fade-up" data-aos-duration="1000" class="group block rounded-xl overflow-hidden focus:outline-none shadow-md hover:shadow-lg 
+                       transition-all duration-300 bg-white 
+                       max-w-sm sm:max-w-none mx-auto" href="/blog/detail">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                    <!-- Image container with responsive sizing -->
+                    <div class="shrink-0 relative rounded-xl overflow-hidden 
+                                w-full sm:w-48 lg:w-56 
+                                h-40 sm:h-36 lg:h-44">
+                        <img class="w-full h-full object-cover rounded-xl 
+                                  transition-transform duration-500 ease-in-out 
+                                  group-hover:scale-105 group-focus:scale-105" src="assets/img/blog1.jpg"
                             alt="Blog Image">
                     </div>
 
-                    <div class="grow">
-                        <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600">
-                            Onsite
+                    <!-- Content with responsive text -->
+                    <div class="grow p-3 sm:p-2 lg:p-4">
+                        <h3 class="text-lg sm:text-xl font-semibold text-gray-800 
+                                 group-hover:text-sky-600 line-clamp-2">
+                            6 Best High Risk Merchant Account Providers for 2025
                         </h3>
 
-                        <p
-                            class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
+                        <p class="mt-2 sm:mt-4 inline-flex items-center gap-x-1.5 
+                                 text-sm font-medium text-sky-500 
+                                 group-hover:text-sky-600">
                             Read more
-                            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6" />
+                            <svg class="w-5 h-5 transform transition-transform group-hover:translate-x-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </p>
                     </div>
                 </div>
             </a>
-            <!-- End Card -->
 
-            <!-- Card -->
-            <a data-aos="fade-up" data-aos-duration="2000"
-                class="group block rounded-xl overflow-hidden focus:outline-none shadow-md" href="/blog/detail">
-                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                        <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                            src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-                            alt="Blog Image">
-                    </div>
-
-                    <div class="grow">
-                        <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600">
-                            The complete guide to OKRs
-                        </h3>
-
-                        <p
-                            class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                            Read more
-                            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <!-- End Card -->
-
-            <!-- Card -->
-            <a data-aos="fade-up" data-aos-duration="3000"
-                class="group block rounded-xl overflow-hidden focus:outline-none shadow-md" href="/blog/detail">
-                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                        <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-                            alt="Blog Image">
-                    </div>
-
-                    <div class="grow">
-                        <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600">
-                            People program models
-                        </h3>
-
-                        <p
-                            class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                            Read more
-                            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <!-- End Card -->
         </div>
-        <!-- End Grid -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            <!-- Card -->
+            <a data-aos="fade-up" data-aos-duration="1000" class="group block rounded-xl overflow-hidden focus:outline-none shadow-md hover:shadow-lg 
+                       transition-all duration-300 bg-white 
+                       max-w-sm sm:max-w-none mx-auto" href="/blog/detail">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                    <!-- Image container with responsive sizing -->
+                    <div class="shrink-0 relative rounded-xl overflow-hidden 
+                                w-full sm:w-48 lg:w-56 
+                                h-40 sm:h-36 lg:h-44">
+                        <img class="w-full h-full object-cover rounded-xl 
+                                  transition-transform duration-500 ease-in-out 
+                                  group-hover:scale-105 group-focus:scale-105" src="assets/img/blog1.jpg"
+                            alt="Blog Image">
+                    </div>
+
+                    <!-- Content with responsive text -->
+                    <div class="grow p-3 sm:p-2 lg:p-4">
+                        <h3 class="text-lg sm:text-xl font-semibold text-gray-800 
+                                 group-hover:text-sky-600 line-clamp-2">
+                            6 Best High Risk Merchant Account Providers for 2025
+                        </h3>
+
+                        <p class="mt-2 sm:mt-4 inline-flex items-center gap-x-1.5 
+                                 text-sm font-medium text-sky-500 
+                                 group-hover:text-sky-600">
+                            Read more
+                            <svg class="w-5 h-5 transform transition-transform group-hover:translate-x-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a data-aos="fade-up" data-aos-duration="1000" class="group block rounded-xl overflow-hidden focus:outline-none shadow-md hover:shadow-lg 
+                       transition-all duration-300 bg-white 
+                       max-w-sm sm:max-w-none mx-auto" href="/blog/detail">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                    <!-- Image container with responsive sizing -->
+                    <div class="shrink-0 relative rounded-xl overflow-hidden 
+                                w-full sm:w-48 lg:w-56 
+                                h-40 sm:h-36 lg:h-44">
+                        <img class="w-full h-full object-cover rounded-xl 
+                                  transition-transform duration-500 ease-in-out 
+                                  group-hover:scale-105 group-focus:scale-105" src="assets/img/blog1.jpg"
+                            alt="Blog Image">
+                    </div>
+
+                    <!-- Content with responsive text -->
+                    <div class="grow p-3 sm:p-2 lg:p-4">
+                        <h3 class="text-lg sm:text-xl font-semibold text-gray-800 
+                                 group-hover:text-sky-600 line-clamp-2">
+                            6 Best High Risk Merchant Account Providers for 2025
+                        </h3>
+
+                        <p class="mt-2 sm:mt-4 inline-flex items-center gap-x-1.5 
+                                 text-sm font-medium text-sky-500 
+                                 group-hover:text-sky-600">
+                            Read more
+                            <svg class="w-5 h-5 transform transition-transform group-hover:translate-x-2" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
     </div>
-    <!-- End Card Blog -->
 </template>
